@@ -13,7 +13,7 @@ export default function Skills() {
           <p> Este proyecto fue entregado como examen
             final en el curso de programacion web.
           </p>
-          <a href="#"> Ir</a>
+          <a href="https://erikagillig.github.io/KDA/"> Ir</a>
         </div>
         <div className="card">
           <div className="card-image car-2"></div>
@@ -26,7 +26,7 @@ export default function Skills() {
           <div className="card-image car-3"></div>
           <h2>Simon dice </h2>
           <p>Un pequeño juego programado en Javascript</p>
-          <a href="https://erikagillig.github.io/simon-says/n"> Ir</a>
+          <a href="https://erikagillig.github.io/simon-says"> Ir</a>
         </div>
         <div className="card">
           <div className="card-image car-4"></div>
