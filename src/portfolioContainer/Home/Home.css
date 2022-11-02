@@ -1,0 +1,10 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    min-height: 670px;
+    background: #ffe2ff;
+background: -webkit-radial-gradient(circle, #ffe2ff 0%, #efb1ff 100%);
+background: radial-gradient(circle, #ffe2ff 0%, #efb1ff 100%);
+}

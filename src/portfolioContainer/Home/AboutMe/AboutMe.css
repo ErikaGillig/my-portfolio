@@ -1,0 +1,19 @@
+.aboutme-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+}
+h1{
+    color: #6f2dbd;
+    font-size: cursive;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+    color: #be4e77;
+}

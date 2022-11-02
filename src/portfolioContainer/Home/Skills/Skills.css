@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1{
+    text-align: center;
+}
+.skills{
+    text-align: end;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+} 
+
+.card{
+    background-color: #6f2dbd;
+    width: 220px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    background-color: aquamarine;
+    height: 150px;
+    margin-bottom: 15px ;
+    background-size: cover;
+}
+
+.car-1{
+    background-image:url(../../../assets/Skills/KDA.png) ;
+}
+.car-2{
+    background-image: url(../../../assets/Skills/aquelarre.png);
+}
+.car-3{
+    background-image: url(../../../assets/Skills/simon.png);
+}
+.car-4{
+    background-image: url(../../../assets/Skills/todolist.jpg);
+}
+
+.card h2{
+    text-align: center;
+}
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: black;
+    color: #6f2dbd;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+@media screen and (max-width: 1110px){
+    .card{
+        margin: 0 0px 0 20px;
+    }
+    .card h2{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    .car-1 .car-2 .car-3 .car-4 {
+        width:120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+
+@media screen and (max-width: 910px){
+    .car-1 .car-2 .car-3 .car-4{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .car-1 .car-2 .car-3 .car-4{
+        margin: 0 !important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .card h2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card p{
+        margin: 25px 0 0;
+    }
+    .card a{
+        margin: 0 !important;
+    }
+    .card{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .car-1 .car-2 .car-3 .car-4{
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+    .card h2{
+        width: 90%;
+    }
+}
