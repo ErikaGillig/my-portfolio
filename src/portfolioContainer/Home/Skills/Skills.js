@@ -13,7 +13,7 @@ export default function Skills() {
           <p> Este proyecto fue entregado como examen
             final en el curso de programacion web.
           </p>
-          <a href="https://erikagillig.github.io/KDA/"> Ir</a>
+          <a href="https://kdaproject.netlify.app/"> Ir</a>
         </div>
         <div className="card">
           <div className="card-image car-2"></div>
